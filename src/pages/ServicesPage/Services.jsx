@@ -1,8 +1,11 @@
 import React from 'react'
+import css from './Services.module.css'
 
 function Services() {
   return (
-    <div>Services</div>
+    <div className={css.service_wrapper}>
+        
+    </div>
   )
 }
 

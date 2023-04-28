@@ -48,6 +48,17 @@ function Landing() {
                 </div>
                 <div className={css.learn}>Learn more</div>
             </div>
+            <div className={css.project}>
+                <div className={css.statics}>
+                    <div className={css.statics_count}>
+                        <div className={css.statics_count_number}>150</div>
+                        <div className={css.statics_count_title}>PROJECTS</div>
+                    </div>
+                    <div className={css.statics_descr}>
+                        Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy metus.
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
   )
