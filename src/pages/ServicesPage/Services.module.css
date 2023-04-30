@@ -2,8 +2,146 @@
     width: 100%;
     height: 584px;
     background: url('../../assets/bg/service_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 0;
     right: 0;
     z-index: -3;
 }
+
+.text_wrapper {
+    text-align: center;
+    margin-top: 200px;
+    color: #FFFFFF;
+}
+
+.service_header {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.service_text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 30px;
+    opacity: 0.72;
+}
+
+.search_form_button {
+    margin-top: 40px;
+    background: rgba(145, 158, 171, 0.08);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    align-items: center;
+    padding: 8px;
+    gap: 20px;
+    width: 760px;
+    height: 58px;
+    margin-left: 25%;
+}
+
+.service_input_email, .service_input_website{
+    position: relative;
+    align-items: center;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+    padding-right: 14.5%;
+    padding-left: 50px;
+}
+
+.search_form_button label > img {
+    position: absolute;
+    z-index: 2;
+    top: 19px;
+    bottom: 10px;
+}
+
+.service_img_email {
+    left: 25px;
+}
+
+.service_img_divider {
+    left: 328px;
+    bottom: 50px;
+}
+
+.service_img_website{
+    right: 390px;
+}
+
+.service_button_analyse {
+    background: #FA541C;
+    border-radius: 8px;
+    align-items: center;
+    padding: 11px 22px;
+    border: none;
+}
+
+
+.service_content_wrapper {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service_content_header {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #212B36;
+    margin-bottom: 25px;
+}
+
+.service_content_text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    margin-bottom: 25px;
+}
+
+.service_lists {
+    margin-bottom: 40px;
+}
+
+.service_lists li {
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212B36;
+    margin-left: 5%;
+}
+
+.service_content_button {
+    cursor: pointer;
+}
+
+.service_learn {
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #212B36;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    border-radius: 8px;
+    padding: 11px 22px;
+    margin-right: 220px;
+}
+
+.service_content_button img {
+    position: absolute;
+    right: 515px;
+    bottom: -600px;
+}
+
