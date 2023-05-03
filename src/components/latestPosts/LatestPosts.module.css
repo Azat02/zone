@@ -1,0 +1,67 @@
+.latest {
+    padding: 120px 100px;
+}
+
+.latest_wrapper{
+    margin-top: 80px;
+}
+
+.slider_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.slider_card{
+    padding: 40px;
+    width: 357px;
+    height: 482px;
+    background: #FFFFFF;
+    box-shadow: -12px 12px 48px -4px rgba(145, 158, 171, 0.12);
+    border-radius: 16px;
+    position: relative;
+}
+
+.slider_card_subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #919EAB;
+}
+
+.slider_card_title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #212B36;
+    margin-top: 16px;
+}
+
+.commentator{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 40px;
+    left: 40px;
+}
+
+.commentator_name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #212B36;
+    margin-left: 8px;
+}
+
+.cruz_bg{
+    background: url('../../assets/img/cruz_bg.svg')
+}
+
+.cruz_title{
+    color: #fff;
+}
+
+.cruz_name{
+    color: #fff;
+}

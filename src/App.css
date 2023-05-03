@@ -10,3 +10,48 @@
     width: 85%;
     margin: 0 auto;
 }
+
+.main_page_subtitle{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #919EAB;
+}
+
+.main_page_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #212B36;
+    margin-top: 16px;
+}
+
+.main_page_descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    margin-top: 24px;
+
+}
+
+.case_title{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #919EAB;
+}
+
+.case_subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.white_theme{
+    color: #fff;
+}
