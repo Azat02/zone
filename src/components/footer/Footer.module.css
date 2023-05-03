@@ -1,0 +1,251 @@
+.footer_bg{
+    margin-top: 100px;
+    background: url('../../assets/bg/get_bg.png');
+    width: 100%;
+    height: 624px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get_title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FA541C;
+    margin-bottom: 64px;
+}
+
+.get_email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.get_email::before{
+    position: absolute;
+    content: '';
+    top: 2px;
+    left: -30px;
+    background: url('../../assets/icons/get_email.svg');
+    width: 22px;
+    height: 20px;
+}
+
+.location::before{
+    background: url('../../assets/icons/get_loc.svg');
+    height: 25px;
+}
+
+.get_email > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.request{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get_input{
+    width: 466px;
+    height: 56px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    border: none;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #919EAB;
+}
+
+.get_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    width: 172px;
+    height: 48px;
+    background: #FA541C;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.sign{
+    height: 208px;
+    background: #F9FAFB;
+    padding: 64px 0;
+}
+
+.sign_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 24px;
+}
+
+.new_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212B36;
+}
+
+.new_subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #637381;
+    margin-top: 8px;
+}
+
+.sign_up_input{
+    width: 364px;
+    height: 56px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #919EAB;
+    border: none;
+}
+
+.sign_up_btn{
+    padding: 11px 22px;
+    width: 102px;
+    height: 56px;
+    background: #FA541C;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.social_wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.footer{
+    padding: 80px 0 32px 0;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_zone{
+    width: 270px;
+}
+
+.footer_zone_descr{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #637381;
+    margin: 25px 0 35px 0;
+}
+
+.black_email > a{
+    color: #212B36;
+    font-size: 14px;
+}
+
+.black_location > a{
+    color: #212B36;
+    font-size: 14px;
+}
+
+.black_email::before{
+    background: url('../../assets/icons/black_email.svg');
+    width: 18px;
+    height: 13px;
+    top: 8px;
+}
+
+.black_location::before{
+    background: url('../../assets/icons/black_location.svg');
+    width: 14px;
+    height: 18px;
+    top: 5px;
+    left: -27px;
+}
+
+.email_input{
+    width: 310px;
+    height: 48px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    border: none;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #919EAB;
+    display: inline-block;
+}
+
+.email_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 8px;
+    width: 48px;
+    height: 48px;
+    background: #FA541C;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+
+.footer_rights{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer_rights_text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #637381;
+}
