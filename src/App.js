@@ -28,7 +28,7 @@ function App() {
     return (
         <>
             <Suspense fallback='Loading...'>
-                <button style={{position: 'fixed'}} onClick={() => setTheme((prev) => !prev)}>{theme ? 'dark' : 'white'}</button>
+                <button className='theme_btn' style={{position: 'fixed'}} onClick={() => setTheme((prev) => !prev)}>{theme ? 'dark' : 'white'}</button>
                 <Nav theme={theme}/>
                 <Routes>
                     <Route path="/" element={<Landing theme={theme}/>}/>

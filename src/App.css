@@ -56,3 +56,26 @@
 .white_theme{
     color: #fff;
 }
+
+@media (max-width: 375px) {
+    .theme_btn{
+        display: none;
+    }
+    .main_page_subtitle{
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .main_page_title{
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .main_page_descr{
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 24px;
+    }
+}

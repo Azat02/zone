@@ -117,3 +117,12 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+@media (max-width: 375px) {
+    .slick-next::before{
+        display: none;
+    }
+    .slick-prev::before{
+        display: none;
+    }
+}
