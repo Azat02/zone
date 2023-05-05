@@ -80,17 +80,17 @@ function Landing({theme}) {
             <section className={css.wrapper}>
                 <div className={css.digital}>
                     <div className={css.digital_title}>{t('main.digital')}</div>
-                    <div className={`${css.digital_big_title} + ${theme ? '' : ' white_theme'}`} style={theme ? null : {color: '#fff'}} >Boosts Your Website Traffic</div>
+                    <div className={`${css.digital_big_title} + ${theme ? '' : ' white_theme'}`} style={theme ? null : {color: '#fff'}} >{t('main.boost')}</div>
                     <div className={css.digital_descr}>
-                        Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. 
+                        {t('main.boostDescr')} 
                     </div>
                     <div className={css.digital_wrapper}> 
-                        <button className={css.free_btn}>Try For Free</button>
+                        <button className={css.free_btn}>{t('tryFree')}</button>
                         <img src={play} alt="play"/>
-                        <div className={ css.digital_wrapper_text} style={theme ? null : {color: '#fff'}}>See Our Work</div>
+                        <div className={ css.digital_wrapper_text} style={theme ? null : {color: '#fff'}}>{t('main.See')}</div>
                     </div>
                 </div>
-                <img src={digital} alt="digital_bg" />
+                <img src={digital} alt="digital_bg" className={css.digital_img} /> 
             </section>
             <section className={css.brands}>
                 {brands.map((item, index) => (

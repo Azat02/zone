@@ -65,3 +65,18 @@
 .cruz_name{
     color: #fff;
 }
+
+@media (max-width: 375px) {
+    .latest{
+        padding: 80px 0px;
+    }
+    .slider_wrapper{
+        padding: 20px;
+    }
+    .cruz_bg{
+        display: none;
+    }
+    .margaret_bg{
+        display: none;
+    }
+}

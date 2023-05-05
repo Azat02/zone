@@ -39,7 +39,7 @@ export default function Questions({theme}) {
   return (
     <div>
       {questionData.map((item, index) => (
-        <div className={css.questions} key={index} style={answers[index] ? {background: '#212B36', paddingTop: '15px', width: '564px' } : null}>
+        <div className={css.questions} key={index}>
           <div className={css.question} style={theme ? null : {color: '#fff'}}>
             {item.question}
             {answers[index] && (

@@ -2,7 +2,7 @@
 
 .testimon{
     padding: 120px 144px;
-    height: 690px;
+    min-height: 690px;
     background: #F9FAFB;
 }
 
@@ -73,4 +73,24 @@
     color: #637381;
     margin-top: 4px;
     text-align: center;
+}
+
+@media (max-width: 375px) {
+    .testimon{
+        padding: 80px 20px 140px 20px; 
+    }
+    .testimon_title{
+        font-size: 32px;
+    }
+
+    .each_slide_comment{
+        font-size: 16px;
+        line-height: 28px;
+        margin: 64px 0 0 0 ;
+        width: 100%;
+        text-align: center;
+    }
+    .worker{
+        margin: 40px 0 0 115px
+    }
 }

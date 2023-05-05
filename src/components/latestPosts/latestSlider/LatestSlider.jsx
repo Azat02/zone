@@ -39,7 +39,7 @@ function LatestSlider({theme}) {
                                 <div className={`${css.commentator_name} ${css.cruz_name}`}>Cruz Truong</div>
                             </div>
                         </div>
-                        <div className={css.slider_card} style={theme ? null : {background: '#212B36', boxShadow: 'none'}}>
+                        <div className={`${css.slider_card} + ${css.margaret_bg}`} style={theme ? null : {background: '#212B36', boxShadow: 'none'}}>
                             <div className={css.slider_card_subtitle}>15 Dec 2020 8 min read </div>
                             <div className={css.slider_card_title} style={theme ? null : {color: '#fff'}}>Any mechanical keyboard enthusiasts in design?</div>
                             <div className={css.commentator}>
