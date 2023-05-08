@@ -47,7 +47,7 @@ function Nav({theme}) {
                     <span></span>
                 </div>
                 <img className={css.menu_logo} src={theme ? logo : white_logo} alt="logo" />
-                <div className={!active ? `${css.navbar_active}` : `${css.navbar}`}>
+                <div className={active ? `${css.navbar_active}` : `${css.navbar}`}>
                     <Link className={css.menu_link} to="/">{t('main.home')}</Link>
                     <Link className={css.menu_link} to="/">{t('main.components')}</Link>
                     <div className={css.menu_page} style={theme ? null : {color: '#fff'}} onClick={handlePageClose}>{t('main.pages')}</div>

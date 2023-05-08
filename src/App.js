@@ -12,6 +12,7 @@ import Services from "./pages/ServicesPage/Services";
 import { useEffect, useState } from 'react';
 import { Suspense } from 'react';
 import { useTranslation} from 'react-i18next'
+import Footer from './components/footer/Footer';
 
 
 
@@ -35,11 +36,12 @@ function App() {
                     <Route path="/about" element={<About/>}/>
                     <Route path="/blogdetails" element={<BlogDetails/>}/>
                     <Route path="/blog" element={<Blog/>}/>
-                    <Route path="/casestudies" element={<CaseStudies/>}/>
+                    <Route path="/casestudies" element={<CaseStudies theme={theme}/>}/>
                     <Route path="/casestudiesdetails" element={<CaseStudiesDetails/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/services" element={<Services/>}/>
                 </Routes>
+                <Footer theme={theme}/>
             </Suspense>
         </>
     );
