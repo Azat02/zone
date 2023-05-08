@@ -1,5 +1,6 @@
 import React from 'react'
 import LatestPosts from '../../components/latestPosts/LatestPosts'
+import Testimon from '../../components/testimon/Testimon'
 import css from './CaseStudies.module.css'
 import case1 from '../../assets/img/case1.svg'
 import case2 from '../../assets/img/case2.svg'
@@ -63,7 +64,7 @@ function CaseStudies({theme}) {
   return (
   <>
     <div className='container' style={{paddingTop: "60px"}}>
-        <div className='main_page_title'>Our Case Studies</div>
+        <div className='main_page_title' style={theme ? {} : {color: '#fff'}}>Our Case Studies</div>
         <div className='main_page_descr'>Nullam tincidunt adipiscing enim. Mauris <br /> sollicitudin fermentum libero.</div>
         <div className={css.case_wrapper}>
             <div className={css.case_title}>All</div>
@@ -79,12 +80,13 @@ function CaseStudies({theme}) {
                     <div className={css.case_card} key={item.img}>
                         <img src={item.img} alt="Case" />
                         <div className={css.case_card_subtitle}>{item.subtitle}</div>
-                        <div className={css.case_card_title}>{item.title}</div>
+                        <div className={css.case_card_title} style={theme ? {} : {color: '#fff'}}>{item.title}</div>
                     </div>
                 ))
             }
         </div>
     </div>
+    <Testimon theme={theme}/> 
     <LatestPosts theme={theme}/>
   </>
   )

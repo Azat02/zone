@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    margin-top: 93px;
+    margin: 93px 0;
 }
 
 .case_card{
