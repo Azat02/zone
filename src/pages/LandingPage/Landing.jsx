@@ -302,7 +302,6 @@ function Landing({theme}) {
         </main>
         <Testimon theme={theme}/>
         <LatestPosts theme={theme}/>
-        <Footer theme={theme}/> 
     </>
   )
 }
