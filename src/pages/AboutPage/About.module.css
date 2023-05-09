@@ -1,0 +1,95 @@
+.our_clients{
+    width: 100%;
+    padding: 120px 0 40px 0;
+}
+
+.our_clients_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #212B36;
+}
+
+.our_clients_wrapper{
+    width: 694px;
+    height: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin: 80px auto;
+
+}
+
+.about_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 135px;
+    margin-top: 133px;
+}
+
+.about_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.about_descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    margin-top: 24px;
+}
+
+.about_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    gap: 8px;
+    width: 198px;
+    height: 48px;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    border-radius: 8px;
+    margin-top: 40px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    color: #212B36;
+    cursor: pointer;
+}
+
+.expirence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+    margin: 150px 0;
+}
+
+.expirence_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.experince_title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #637381;
+}
+
+.experince_count{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #212B36;
+}
