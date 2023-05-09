@@ -21,8 +21,8 @@ function LatestSlider({theme}) {
     <div>
         <Slider {...settings}>
             {[1,1,1].map((index) => (
-                <div key={index}>
-                    <div className={css.slider_wrapper}>
+                <div>
+                    <div key={index} className={css.slider_wrapper}>
                         <div className={css.slider_card} style={theme ? null : {background: '#212B36', boxShadow: 'none'}}>
                             <div className={css.slider_card_subtitle}>15 Dec 2020 8 min read </div>
                             <div className={css.slider_card_title} style={theme ? null : {color: '#fff'}}>Any mechanical keyboard enthusiasts in design?</div>
