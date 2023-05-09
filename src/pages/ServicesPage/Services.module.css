@@ -453,3 +453,235 @@
     color: #212B36;
     margin-top: 16px;
 }
+
+.work_slider {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+.posts_wrapper h2 {
+    margin-top: 120px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #212B36;
+}
+
+.posts_slider {
+    margin-top: 80px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.form_wrapper {
+    width: 100%;
+    height: 624px;
+    background: url("../../assets/bg/bg_form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form_content {
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_content_header h2 {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FA541C;
+    padding-bottom: 65px;
+}
+
+.form_icon_text {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.form_icon_text p {
+    padding-left: 10px;
+}
+
+.form_input input{
+    display: block;
+    margin-bottom: 20px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    border: none;
+    padding: 14px 370px 16px 12px;
+}
+
+.form_input input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #919EAB;
+}
+
+.form_input button {
+    margin-top: 20px;
+    color: #FFFFFF;
+    padding: 11px 33px;
+    background: #FA541C;
+    border-radius: 8px;
+    border: none;
+}
+
+.sign_wrapper {
+    background: #F9FAFB;
+    border-bottom: 2px solid rgba(145, 158, 171, 0.24);;
+}
+
+.form_sign_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0;
+    align-items: center;
+}
+
+.form_sign_icon_text {
+    display: flex;
+    align-items: center;
+}
+
+.form_sign_icon_text img {
+    margin-right: 24px;
+}
+
+.form_sign_icon_text h3 {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212B36;
+    padding-bottom: 8px;
+}
+
+.form_sign_icon_text p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #637381;
+}
+
+.sign_input_button input {
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    padding: 15px 280px 15px 12px;
+}
+
+.sign_input_button input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #919EAB;
+}
+
+.sign_input_button button {
+    color: #FFFFFF;
+    background: #FA541C;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    padding: 15px 22px;
+}
+
+.footer span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #637381;
+    padding-bottom: 32px;
+}
+
+.footer_logo {
+    margin-top: 82px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.footer_text_icons p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #637381;
+}
+
+.footer_icons {
+    margin-top: 35px;
+}
+
+.footer_icons img {
+    padding-left: 20px;
+    padding-bottom: 90px;
+}
+
+.footer_icons img:first-child {
+    padding-left: 10px;
+} 
+
+.footer_icon_text {
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.footer_icon_text p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #212B36;
+    padding-left: 11px;
+}
+
+.footer_form_button {
+   padding-bottom: 180px;
+}
+
+.footer_form_button input{
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    border: none;
+    padding: 11px 150px 12px 12px;
+}
+
+.footer_form_button input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #919EAB;
+}
+
+.footer_form_button img {
+    background: #FA541C;
+    border-radius: 8px;
+    padding: 15px 18px 15px 21px;
+    margin-bottom: -18px;
+    margin-left: 8px;
+}
+
+.footer_text_right {
+    padding-left: 45%;
+}
