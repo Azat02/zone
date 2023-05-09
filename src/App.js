@@ -34,7 +34,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Landing theme={theme}/>}/>
                     <Route path="/about" element={<About/>}/>
-                    <Route path="/blogdetails" element={<BlogDetails/>}/>
+                    <Route path="/blogdetails" element={<BlogDetails theme={theme}/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/casestudies" element={<CaseStudies theme={theme}/>}/>
                     <Route path="/casestudiesdetails" element={<CaseStudiesDetails theme={theme}/>}/>

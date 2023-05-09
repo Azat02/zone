@@ -28,7 +28,6 @@ import Questions from '../../components/questions/questions'
 import question from '../../assets/img/question.svg'
 import Testimon from '../../components/testimon/Testimon'
 import LatestPosts from '../../components/latestPosts/LatestPosts'
-import Footer from '../../components/footer/Footer'
 import '../../i18next/i18next'
 import { useTranslation } from 'react-i18next'
 
