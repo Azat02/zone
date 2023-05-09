@@ -24,12 +24,11 @@ import louis_bg from '../../assets/bg/louis_bg.svg'
 import pena from '../../assets/img/pena.svg'
 import raplh from '../../assets/img/raplh.svg'
 import marvin from '../../assets/img/marvin.svg'
-import Questions from '../../components/questions/questions'
-import question from '../../assets/img/question.svg'
 import Testimon from '../../components/testimon/Testimon'
 import LatestPosts from '../../components/latestPosts/LatestPosts'
 import '../../i18next/i18next'
 import { useTranslation } from 'react-i18next'
+import Questions from '../../components/questions/Questions'
 
 function Landing({theme}) {
     const { t } = useTranslation()
@@ -288,16 +287,7 @@ function Landing({theme}) {
                     </div>
                 </div>
             </section>
-            <section className={css.faq}>
-                <div className={'main_page_subtitle'}>FAQS</div>
-                <div className={'main_page_title'} style={theme ? null : {color: '#fff'}}>Frequently Asked <br /> Questions</div>
-                <div className={css.faq_wrapper}>
-                    <div className={css.question_block}>
-                    <Questions theme={theme}/>
-                    </div>
-                    <img src={question} className={css.question_img} alt="question" />
-                </div>
-            </section>
+            <Questions theme={theme}/>
         </main>
         <Testimon theme={theme}/>
         <LatestPosts theme={theme}/>

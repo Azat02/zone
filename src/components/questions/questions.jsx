@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import css from "../../pages/LandingPage/Landing.module.css";
+import css from "./Question.module.css";
+import question from '../../assets/img/question.svg'
 
 export default function Questions({theme}) {
 
@@ -38,22 +39,31 @@ export default function Questions({theme}) {
 
   return (
     <div>
-      {questionData.map((item, index) => (
-        <div className={css.questions} key={index}>
-          <div className={css.question} style={theme ? null : {color: '#fff'}}>
-            {item.question}
-            {answers[index] && (
-              <div className={css.answer} style={theme ? null : {color: '#fff'}}>{item.answer}</div>
-            )}
-          </div>
-          <button
-            onClick={() => toggleAnswer(index)}
-            className={css.question_btn} style={theme ? null : {color: '#fff'}}
-          >
-            {answers[index] ? '-' : '+'}
-          </button>
+      <section className={css.faq}>
+        <div className={'main_page_subtitle'}>FAQS</div>
+        <div className={'main_page_title'} style={theme ? null : {color: '#fff'}}>Frequently Asked <br /> Questions</div>
+        <div className={css.faq_wrapper}>
+            <div className={css.question_block}>
+              {questionData.map((item, index) => (
+                <div className={css.questions} key={index}>
+                  <div className={css.question} style={theme ? null : {color: '#fff'}}>
+                    {item.question}
+                    {answers[index] && (
+                      <div className={css.answer} style={theme ? null : {color: '#fff'}}>{item.answer}</div>
+                    )}
+                  </div>
+                  <button
+                    onClick={() => toggleAnswer(index)}
+                    className={css.question_btn} style={theme ? null : {color: '#fff'}}
+                  >
+                    {answers[index] ? '-' : '+'}
+                  </button>
+                </div>
+              ))}
+            </div>
+            <img src={question} className={css.question_img} alt="question" />
         </div>
-      ))}
+    </section>
     </div>
   );
 }

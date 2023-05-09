@@ -33,7 +33,7 @@ function App() {
                 <Nav theme={theme}/>
                 <Routes>
                     <Route path="/" element={<Landing theme={theme}/>}/>
-                    <Route path="/about" element={<About/>}/>
+                    <Route path="/about" element={<About theme={theme}/>}/>
                     <Route path="/blogdetails" element={<BlogDetails theme={theme}/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/casestudies" element={<CaseStudies theme={theme}/>}/>
