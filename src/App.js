@@ -11,13 +11,11 @@ import Landing from "./pages/LandingPage/Landing";
 import Services from "./pages/ServicesPage/Services";
 import { useEffect, useState } from 'react';
 import { Suspense } from 'react';
-import { useTranslation} from 'react-i18next'
 import Footer from './components/footer/Footer';
 
 
 
 function App() {
-    const { t } = useTranslation()
     const [theme , setTheme] = useState(true);
     useEffect(() => {
         document.body.style.backgroundColor = `${theme ? 'white' : '#161C24'}`;

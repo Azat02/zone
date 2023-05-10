@@ -93,3 +93,176 @@
     text-align: center;
     color: #212B36;
 }
+
+.our_vision{
+    width: 100%;
+    height: 648px;
+    background: url('../../assets/bg/vision_bg.svg') no-repeat center center/ cover;
+    padding: 80px 0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vision_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.vision_descr{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 36px;
+    color: #637381;
+    width: 564px;
+    text-align: center;
+}
+
+.our_core{
+    padding: 120px 0;
+}
+
+
+.core_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-top: 80px;
+}
+
+.core_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212B36;
+    margin-top: 40px;
+}
+
+.item_descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #637381;
+    margin-top: 16px;
+}
+
+.our_story{
+    padding: 120px 0 160px 0;
+    background: #F9FAFB;
+}
+
+.story_bussines{
+    margin: 52px 0 0 50%;
+    padding-left: 30px;
+    position: relative;
+}
+
+.story_bussines::before{
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 0;
+    width: 1px;
+    height: 134px;
+    background: rgba(145, 158, 171, 0.24);
+}
+
+.bussines_year{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FA541C;
+    position: relative;
+}
+
+.bussines_year::before{
+    position: absolute;
+    content: '';
+    top: 7px;
+    left: -36px;
+    width: 12px;
+    height: 12px;
+    background: #FA541C;
+    border-radius: 100%
+}
+
+.bussines_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212B36;
+    margin-top: 4px;
+}
+
+.bussines_subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #637381;
+    margin-top: 8px;
+}
+
+.story_legal{
+    margin: 52px 50% 0 0;
+    padding-right: 30px;
+}
+
+.story_legal::before{
+    left: 100%;
+}
+
+.legal_year{
+    text-align: right;
+    color: #22B8CF;
+}
+.legal_year::before{
+    left: 104.3%;
+    background: #22B8CF;
+}
+
+.legal_title{
+    text-align: right;
+}
+
+.legal_subtitle{
+    text-align: right;
+}
+
+.design_year{
+    color: #FFC81A;
+}
+.design_year::before{
+    background: #FFC81A;
+}
+
+.company_year{
+    color: #0CD66E
+}
+
+.company_year::before{
+    background: #0CD66E;
+}
+
+.great_team{
+    padding: 120px 0;
+
+}
+
+.team_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
