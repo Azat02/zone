@@ -56,6 +56,23 @@
     color: #fff;
 }
 
+.core_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #212B36;
+}
+
+.core_subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    text-align: center;
+    margin: 24px 0 120px 0;  
+}
+
 @media (max-width: 375px) {
     .theme_btn{
         display: none;
