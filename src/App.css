@@ -11,3 +11,88 @@
     width: 85%;
     margin: 0 auto;
 }
+
+.main_page_subtitle{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #919EAB;
+}
+
+.main_page_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #212B36;
+    margin-top: 16px;
+}
+
+.main_page_descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    margin-top: 24px;
+
+}
+
+.case_title{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #919EAB;
+}
+
+.case_subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.white_theme{
+    color: #fff;
+}
+
+.core_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #212B36;
+}
+
+.core_subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    text-align: center;
+    margin: 24px 0 120px 0;  
+}
+
+@media (max-width: 375px) {
+    .theme_btn{
+        display: none;
+    }
+    .main_page_subtitle{
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .main_page_title{
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .main_page_descr{
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 24px;
+    }
+}

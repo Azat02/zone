@@ -1,0 +1,51 @@
+.case_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 53px;
+    width: 50%;
+}
+
+.case_title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #637381;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.case_title:hover{
+    color: #212B36;
+    border-bottom: 2px solid #FA541C ;
+    border-radius: 1px;
+}
+
+.case_card_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 93px 0;
+}
+
+.case_card{
+    width: 363px;
+}
+
+.case_card_subtitle{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #919EAB;
+    margin: 20px 0 0 20px;
+}
+
+.case_card_title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #212B36;
+    margin: 8px 0 0 20px;
+}

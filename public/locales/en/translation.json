@@ -1,0 +1,15 @@
+{
+    "main": {
+        "home": "Home",
+        "components": "Components",
+        "pages" : "Pages",
+        "documentation" : "Documentation",
+        "login" : "Login",
+        "join" : "Join Us",
+        "digital" : "Digital Marketing",
+        "boost" : "Boosts Your Website Traffic",
+        "boostDescr": "Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. ",
+        "tryFree": "Try For Free",
+        "See" : "See Our Work" 
+    }
+}
