@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import css from "./Question.module.css";
 import question from '../../assets/img/question.svg'
 
