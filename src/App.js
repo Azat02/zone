@@ -37,7 +37,7 @@ function App() {
                     <Route path="/casestudies" element={<CaseStudies theme={theme}/>}/>
                     <Route path="/casestudiesdetails" element={<CaseStudiesDetails theme={theme}/>}/>
                     <Route path="/contact" element={<Contact/>}/>
-                    <Route path="/services" element={<Services/>}/>
+                    <Route path="/services" element={<Services theme={theme}/>}/>
                 </Routes>
                 <Footer theme={theme}/>
             </Suspense>
