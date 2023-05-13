@@ -20,22 +20,109 @@ import dot_blue from "../../assets/icons/dot_blue.svg";
 import dot_green from "../../assets/icons/dot_green.svg";
 import dot_yellow from "../../assets/icons/dot_yellow.svg";
 import layer from "../../assets/icons/layer.svg";
-import place from "../../assets/icons/place.svg";
-import email_form from "../../assets/icons/email_form.svg";
-import email_orange from "../../assets/icons/email_orange.svg";
-import logo from "../../assets/img/Logo.svg";
-import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
-import In from "../../assets/icons/in.svg";
-import twitter from "../../assets/icons/twitter.svg";
-import email_black from "../../assets/icons/email_black.svg";
-import place_black from "../../assets/icons/place_black.svg";
-import right_white from "../../assets/icons/right_white.svg";
+import Testimon from "../../components/testimon/Testimon";
+import LatestPosts from "../../components/latestPosts/LatestPosts";
+// import place from "../../assets/icons/place.svg";
+// import email_form from "../../assets/icons/email_form.svg";
+// import email_orange from "../../assets/icons/email_orange.svg";
+// import logo from "../../assets/img/Logo.svg";
+// import facebook from "../../assets/icons/facebook.svg";
+// import instagram from "../../assets/icons/instagram.svg";
+// import In from "../../assets/icons/in.svg";
+// import twitter from "../../assets/icons/twitter.svg";
+// import email_black from "../../assets/icons/email_black.svg";
+// import place_black from "../../assets/icons/place_black.svg";
+// import right_white from "../../assets/icons/right_white.svg";
 
-function Services() {
+function Services({theme}) {
   return (
+    <>
     <div className={css.service_wrapper}>
-      <div className="container">
+      {/* <div className={css.form_wrapper}>
+        <div className="container">
+          <div className={css.form_content}>
+            <div className={css.form_content_header}>
+              <h2>
+                Get Free <br /> SEO Analysis
+              </h2>
+              <div className={css.form_icon_text}>
+                <img src={email_form} alt="email_form" />
+                <p>Hello@agency.com</p>
+              </div>
+              <div className={css.form_icon_text}>
+                <img src={place} alt="place" />
+                <p>508 Bridle Avenue Newnan, GA 30263</p>
+              </div>
+            </div>
+            <div className={css.form_input}>
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <input type="phone" placeholder="Phone" />
+              <input type="text" placeholder="Website URL" />
+              <button>Send Request</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={css.sign_wrapper}>
+        <div className="container">
+          <div className={css.form_sign_wrapper}>
+            <div className={css.form_sign_icon_text}>
+              <img src={email_orange} alt="email_orange" />
+              <div>
+                <h3>Sign Up For Newsletter </h3>
+                <p>Receive 50% discount on first project</p>
+              </div>
+            </div>
+            <div className={css.sign_input_button}>
+              <input type="text" placeholder="Enter your email" />
+              <button>Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={css.footer}>
+        <div className="container">
+          <img className={css.footer_logo} src={logo} alt="logo" />
+          <div className={css.footer_wrapper}>
+            <div className={css.footer_text_icons}>
+              <p>
+                The starting point for your next project <br /> based on
+                easy-to-customize Material-UI <br /> © helps you build apps
+                faster and better.
+              </p>
+              <div className={css.footer_icons}>
+                <img src={facebook} alt="facebook" />
+                <img src={instagram} alt="instagram" />
+                <img src={In} alt="In" />
+                <img src={twitter} alt="twitter" />
+              </div>
+              <span>© 2021. All rights reserved</span>
+            </div>
+            <div>
+              <div className={css.footer_icon_text}>
+                <img src={email_black} alt="email_black" />
+                <p>info@example.com</p>
+              </div>
+              <div className={css.footer_icon_text}>
+                <img src={place_black} alt="place_black" />
+                <p>655 Schaefer Dale</p>
+              </div>
+            </div>
+            <div>
+              <div className={css.footer_form_button}>
+                <input type="text" placeholder="Email address" />
+                <img src={right_white} alt="right_white" />
+              </div>
+              <span className={css.footer_text_right}>
+                Help Center &nbsp; &nbsp; &nbsp; Terms of Service
+              </span>
+            </div>
+          </div>
+        </div>
+      </div> */}
+    </div>
+    <div className="container">
         <div className={css.text_wrapper}>
           <h1 className={css.service_header}>Offline SEO</h1>
           <p className={css.service_text}>
@@ -288,104 +375,14 @@ function Services() {
         </div>
       </div>
       <div className={css.work_slide_wrapper}>
-        <div className="container">
-          <div className={css.header_slide}>
-            <span>Testimonials</span>
-            <h2>Who Love Our Work</h2>
-          </div>
-          <div className={css.work_slider}>SLIDER</div>
+        <div>
+          <Testimon theme={theme}/> 
         </div>
       </div>
-      <div className="container">
-        <div className={css.posts_wrapper}>
-          <h2>Latest Posts</h2>
-        </div>
-        <div className={css.posts_slider}>POSTS_SLIDER</div>
+      <div>
+        <LatestPosts theme={theme}/>
       </div>
-      <div className={css.form_wrapper}>
-        <div className="container">
-          <div className={css.form_content}>
-            <div className={css.form_content_header}>
-              <h2>
-                Get Free <br /> SEO Analysis
-              </h2>
-              <div className={css.form_icon_text}>
-                <img src={email_form} alt="email_form" />
-                <p>Hello@agency.com</p>
-              </div>
-              <div className={css.form_icon_text}>
-                <img src={place} alt="place" />
-                <p>508 Bridle Avenue Newnan, GA 30263</p>
-              </div>
-            </div>
-            <div className={css.form_input}>
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <input type="phone" placeholder="Phone" />
-              <input type="text" placeholder="Website URL" />
-              <button>Send Request</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={css.sign_wrapper}>
-        <div className="container">
-          <div className={css.form_sign_wrapper}>
-            <div className={css.form_sign_icon_text}>
-              <img src={email_orange} alt="email_orange" />
-              <div>
-                <h3>Sign Up For Newsletter </h3>
-                <p>Receive 50% discount on first project</p>
-              </div>
-            </div>
-            <div className={css.sign_input_button}>
-              <input type="text" placeholder="Enter your email" />
-              <button>Sign Up</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={css.footer}>
-        <div className="container">
-          <img className={css.footer_logo} src={logo} alt="logo" />
-          <div className={css.footer_wrapper}>
-            <div className={css.footer_text_icons}>
-              <p>
-                The starting point for your next project <br /> based on
-                easy-to-customize Material-UI <br /> © helps you build apps
-                faster and better.
-              </p>
-              <div className={css.footer_icons}>
-                <img src={facebook} alt="facebook" />
-                <img src={instagram} alt="instagram" />
-                <img src={In} alt="In" />
-                <img src={twitter} alt="twitter" />
-              </div>
-              <span>© 2021. All rights reserved</span>
-            </div>
-            <div>
-              <div className={css.footer_icon_text}>
-                <img src={email_black} alt="email_black" />
-                <p>info@example.com</p>
-              </div>
-              <div className={css.footer_icon_text}>
-                <img src={place_black} alt="place_black" />
-                <p>655 Schaefer Dale</p>
-              </div>
-            </div>
-            <div>
-              <div className={css.footer_form_button}>
-                <input type="text" placeholder="Email address" />
-                <img src={right_white} alt="right_white" />
-              </div>
-              <span className={css.footer_text_right}>
-                Help Center &nbsp; &nbsp; &nbsp; Terms of Service
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 }
 
