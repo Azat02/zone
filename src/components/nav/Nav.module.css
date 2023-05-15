@@ -62,8 +62,8 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
-    left: 350px;
+    top: 14%;
+    left: 24.5%;
     padding: 15px;
     border-radius: 15px;
     background-color: #fff;
@@ -93,7 +93,19 @@
     line-height: 24px;
     color: #212B36;
     cursor: pointer;
+    position: relative;
 }
+.menu_page::before{
+    position: absolute;
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    background: #FA541C;
+    top: 9px;
+    left: -16px;
+    border-radius: 100%
+}
+
 .down_ul{
     display: flex;
     flex-direction: column;
