@@ -1,5 +1,5 @@
 import LatestPosts from '../../components/latestPosts/LatestPosts'
-import Questions from '../../components/questions/Questions'
+import Questions from '../../components/questions/questions'
 import Testimon from '../../components/testimon/Testimon'
 import css from './About.module.css'
 import spotify from '../../assets/img/spotify.svg'
