@@ -10,7 +10,6 @@ import vimeo from '../../assets/icons/brand_vimeo.svg'
 import airbnb from '../../assets/icons/brand_airbnb.svg'
 import bg from '../../assets/bg/BG.png'
 import seo from '../../assets/icons/seo.svg'
-import email from '../../assets/icons/email.svg'
 import search_eng from '../../assets/icons/search_eng.svg'
 import social from '../../assets/icons/social.svg'
 import right from '../../assets/icons/right.svg'
@@ -26,6 +25,7 @@ import raplh from '../../assets/img/raplh.svg'
 import marvin from '../../assets/img/marvin.svg'
 import Testimon from '../../components/testimon/Testimon'
 import LatestPosts from '../../components/latestPosts/LatestPosts'
+import service_email from '../../assets/icons/service_email.svg'
 import '../../i18next/i18next'
 import { useTranslation } from 'react-i18next'
 // import Questions from '../../components/questions/Questions'
@@ -57,7 +57,7 @@ function Landing({theme}) {
     {
         title: 'Email Marketing',
         descr: 'Nunc nonummy metus. Donec elit libero',
-        img: email
+        img: service_email,
         
     },
     {
