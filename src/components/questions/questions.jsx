@@ -66,6 +66,7 @@ export default function Questions({theme}) {
             <img src={question} className={css.question_img} alt="question" />
         </div>
     </section>
+    <div></div>
     </div>
   );
 }
