@@ -28,7 +28,7 @@ import LatestPosts from '../../components/latestPosts/LatestPosts'
 import service_email from '../../assets/icons/service_email.svg'
 import '../../i18next/i18next'
 import { useTranslation } from 'react-i18next'
-// import Questions from '../../components/questions/Questions'
+import Questions from '../../components/questions/Questions'
 
 function Landing({theme}) {
     const { t } = useTranslation()
@@ -287,7 +287,7 @@ function Landing({theme}) {
                     </div>
                 </div>
             </section>
-            {/* <Questions theme={theme}/> */}
+            <Questions theme={theme}/>
         </main>
         <Testimon theme={theme}/>
         <LatestPosts theme={theme}/>
