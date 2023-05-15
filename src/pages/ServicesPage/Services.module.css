@@ -1,6 +1,6 @@
 .service_wrapper{
     width: 100%;
-    height: 584px;
+    height: 655px;
     background: url('../../assets/bg/service_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,25 +124,19 @@
 
 .service_content_button {
     cursor: pointer;
+    display: flex;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    border-radius: 8px;
+    width: 50%;
 }
 
 .service_learn {
-    position: relative;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 15px;
     line-height: 26px;
     color: #212B36;
-    border: 1px solid rgba(145, 158, 171, 0.32);
-    border-radius: 8px;
-    padding: 11px 22px;
-    margin-right: 220px;
-}
-
-.service_content_button img {
-    position: absolute;
-    right: 515px;
-    bottom: -600px;
+    padding: 11px 23px 11px 22px;
 }
 
 .service_include {
@@ -178,6 +172,10 @@
     text-align: center;
     margin-top: 80px;
     margin-left: 10%;
+}
+
+.service_include_icons div {
+    width: 33%;
 }
 
 .service_include_icons > div {
@@ -324,12 +322,12 @@
 
 .works_step_orange {
     text-align: center;
-    margin: 85px 0 4px 3%;
+    margin: 85px 0 4px 2.7%;
 }
 
 .works_step_yellow {
     text-align: center;
-    margin: 7px 0 4px 3.7%;
+    margin: 7px 0 4px 2.9%;
 }
 
 .works_step_blue {
@@ -381,7 +379,7 @@
 .planning_wrapper_green {
     display: flex;
     justify-content: center;
-    margin-right: 25.5%;
+    margin-right: 23.6%;
     padding-bottom: 150px;
 }
 
@@ -396,7 +394,7 @@
 .planning_wrapper_blue {
     display: flex;
     justify-content: center;
-    margin-right: 25.5%;
+    margin-right: 23.6%;
 }
 
 .planning_wrapper_blue div {
@@ -410,7 +408,7 @@
 .planning_wrapper_orange {
     display: flex;
     justify-content: center;
-    margin-left: 25%;
+    margin-left: 22.5%;
 }
 
 .planning_wrapper_orange div {
@@ -420,7 +418,7 @@
 .planning_wrapper_yellow {
     display: flex;
     justify-content: center;
-    margin-left: 25.2%;
+    margin-left: 22.5%;
 }
 
 .planning_wrapper_yellow div {
@@ -599,89 +597,4 @@
     border-radius: 0px 8px 8px 0px;
     border: none;
     padding: 15px 22px;
-}
-
-.footer span {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 24px;
-    color: #637381;
-    padding-bottom: 32px;
-}
-
-.footer_logo {
-    margin-top: 82px;
-}
-
-.footer_wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-}
-
-.footer_text_icons p{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 24px;
-    color: #637381;
-}
-
-.footer_icons {
-    margin-top: 35px;
-}
-
-.footer_icons img {
-    padding-left: 20px;
-    padding-bottom: 90px;
-}
-
-.footer_icons img:first-child {
-    padding-left: 10px;
-} 
-
-.footer_icon_text {
-    display: flex;
-    padding-bottom: 16px;
-}
-
-.footer_icon_text p {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    color: #212B36;
-    padding-left: 11px;
-}
-
-.footer_form_button {
-   padding-bottom: 180px;
-}
-
-.footer_form_button input{
-    background: rgba(145, 158, 171, 0.08);
-    border-radius: 8px;
-    border: none;
-    padding: 11px 150px 12px 12px;
-}
-
-.footer_form_button input::placeholder {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-    color: #919EAB;
-}
-
-.footer_form_button img {
-    background: #FA541C;
-    border-radius: 8px;
-    padding: 15px 18px 15px 21px;
-    margin-bottom: -18px;
-    margin-left: 8px;
-}
-
-.footer_text_right {
-    padding-left: 45%;
 }
