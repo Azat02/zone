@@ -2,9 +2,9 @@ import React from 'react'
 import css from './Nav.module.css'
 import { Link } from 'react-router-dom'
 
-function DropDown({handlePageClose}) {
+function DropDown({handlePageClose, theme}) {
   return (
-    <div className={css.down_wrapper}>
+    <div className={css.down_wrapper} style={theme ? null : {background: '#161C24'}}>
         <ul onClick={handlePageClose} className={css.down_ul}>
             <Link className={css.down_link} to='/'>Home</Link>
             <Link className={css.down_link} to='/services'>Services</Link>
