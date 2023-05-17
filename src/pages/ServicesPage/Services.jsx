@@ -160,7 +160,7 @@ function Services({theme}) {
         </div>
         <div className={css.service_content_wrapper}>
           <div>
-            <img src={artboard} alt="artboard" />
+            <img className={css.service_img_artboard} src={artboard} alt="artboard" />
           </div>
           <div>
             <h1 className={css.service_content_header}>Offline SEO</h1>
